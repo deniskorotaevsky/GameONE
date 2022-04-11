@@ -1,7 +1,7 @@
-let header__burger = document.querySelector('.header_burger');
-let header_menu = document.querySelector('.container_btm');
+let header__burger = document.querySelector('.js-header_burger');
+let header_menu = document.querySelector('.js-header__row');
 let back = document.querySelector('body');
-let header__list = document.querySelector('.intro_select');
+let header__list = document.querySelector('.js-header__link');
 
 header__burger.onclick = function(){
     header__burger.classList.toggle('active');

@@ -1,126 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Game</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <!-- header -->
-   <header class="header">
+    <header class="header">
         <div class="container">
-
-           <div class="container_box">
-                <div class="header_burger">
+            <div class="header__box">
+                <div class="js-header_burger">
                     <span></span>
                 </div>
-                
-                <div class="container_btm">
+                <div class="js-header__row">
                     <div class="intro_text">
-                        <p><img class="intro_Layer_13" src="images/Layer13.jpg" alt=""></p>
-                        <a href="/"><img class="intro_Forma_1" src="images/Forma 1.jpg" alt=""></a>
-                        <div class="intro_info">info@blitzgamesstuios.com</div>
-                        <a href="/"><img class="intro_flag" src="images/flag.jpg" alt=""></a>
-                        <a href="/" class="intro_city" alt="/">Sweden &#9662;</a> 
+                        <div class="img__logo">
+                            <img src="resources/logo.jpg" alt="">
+                        </div>
+                        <div class="header__item">
+                            <div class="header__imgLetter">
+                                <img src="resources/letter.jpg" alt="">
+                            </div>
+                            <div class="header__mail">info@blitzgamesstuios.com</div>
+                            <div class="header__imgFlag">
+                                <img src="resources/flag.jpg" alt="">
+                            </div>
+                            <a href="#" class="header__nameCity">Sweden &#9662;</a>
+                        </div>
                     </div>
-
-                    <div class="form_nav">
-                        <div class="intro_select">Our Story</div>
-                        <a href="/" class="intro_select" alt="/">What we do <span class="intro_option_arrow arrow_one">&#9662;</span></a>
-                        <a href="/" class="intro_select" alt="/">Games <span class="intro_option_arrow arrow_two">&#9662;</span></a>                    
-                        <a href="/" class="intro_select" alt="/">Work with us <span class="intro_option_arrow arrow_three">&#9662;</span></a>                                                                               
-                        <a href="/" class="intro_select" alt="/">Support <span class="intro_option_arrow arrow_four">&#9662;</span></a>                            
-                        <div class="intro_select">Contact Us</div>
+                    <nav class="header__nav">
+                        <a class="js-header__link">Our Story</a>
+                        <a href="#" class="js-header__link">What we do <span
+                                class="header-option__arrow nav-arrow">&#9662;</span></a>
+                        <a href="#" class="js-header__link">Games <span
+                                class="header-option__arrow nav-arrow">&#9662;</span></a>
+                        <a href="#" class="js-header__link">Work with us <span
+                                class="header-option__arrow nav-arrow">&#9662;</span></a>
+                        <a href="#" class="js-header__link">Support <span
+                                class="header-option__arrow nav-arrow">&#9662;</span></a>
+                        <a class="js-header__link">Contact Us</a>
+                    </nav>
+                    <div class="header__social__card">
+                        <div class="intro__logo">
+                            <img src="resources/facebook.png" alt="">
+                        </div>
+                        <div class="intro__logo">
+                            <img src="resources/twitter.png" alt="">
+                        </div>
+                        <div class="intro__logo">
+                            <img src="resources/youtube.jpg" alt="">
+                        </div>
                     </div>
-                
-                    <div class="intro_social">
-                        <a href="/"><img class="intro__logo intro_facebook displey_none" src="social/facebook.png" alt="/"></a>
-                        <a href="/"><img class="intro__logo intro_twitter displey_none" src="social/twitter.png" alt="/"></a>
-                        <a href="/"><img class="intro__logo intro_youtube displey_none" src="social/youtube.jpg" alt="/"></a>
-                    </div>
-                </div>
-            </div> 
-          
-            <div class="about">
-                <h1 class="about_title">Clash of Clans</h1>
-                <h2 class="about_subtitle">See if your career path will lead you to Supercell.</h2>
-                <div class="about_text">Build your own medieval village, raise an army of bloodthirsty barbarians and wizards and battle with other players.</div>
-                <div class="header_btn">
-                    <a href="/" class="about_team big_btn">APP STORE</a>
-                    <a href="/" class="about_inner big_btn">GOOGLE STORE</a>
                 </div>
             </div>
-
+            <div class="section__header">
+                <h1 class="header__title">Clash of Clans</h1>
+                <h2 class="header__subtitle">See if your career path will lead you to Supercell.</h2>
+                <div class="header__text">
+                    <p>Build your own medieval village, raise an army of bloodthirsty barbarians and
+                        wizards and battle with other players.</p>
+                </div>
+                <div class="header__btn">
+                    <a href="#" class="header__team big__btn">APP STORE</a>
+                    <a href="#" class="header__inner big__btn">GOOGLE STORE</a>
+                </div>
+            </div>
         </div>
     </header>
-    
-   <!-- section -->
-   <div class="section">
+
+
+
+    <!-- section -->
+    <div class="section">
         <div class="container">
-
-            <div class="section_box">
-                <div class="section_box_text">
-                    <h2 class="section_title">Homefront</h2>
-                    <div class="section_subtitle">Download Now</div>
+            <div class="section__container">
+                <div class="section__box">
+                    <div class="section-box__text">
+                        <h2 class="section__title">Homefront</h2>
+                        <p class="section__subtitle">Download Now</p>
+                    </div>
+                    <h2 class="section__text">Is constantly evolving to experiences for gamers.</h2>
+                    <div class="section__about">
+                        <p>Come with a plan or leave in defeat! Welcome to Boom Beach, an epic combat
+                            strategy game where your brains and your troop’s</p>
+                    </div>
                 </div>
-                <h3 class="section_inner">Is constantly evolving to experiences for gamers.</h3>
-                <div class="section_about">Come with a plan or leave in defeat! Welcome to Boom Beach, an epic combat strategy game where your brains and your troop’s</div>
-            </div>
-            <div class="section_btn">
-                <a href="/" class="section_APP_STORE big_btn">APP STORE</a>
-                <a href="/" class="section_GOOGLE_STORE big_btn">GOOGLE STORE</a>
-            </div>
+                <div class="section__btn">
+                    <a href="#" class="section-btn__appStore big__btnStore">APP STORE</a>
+                    <a href="#" class="section-btn__googleStore big__btnStore">GOOGLE STORE</a>
+                </div>
 
+            </div>
         </div>
     </div>
 
     <!-- main -->
-     <div class="main">
+    <div class="main">
         <div class="container">
-            <div class="main_blocks">
+            <div class="main__blocks">
 
-                <div class="main_box_one">
-                    <div class="main_box_one_phone">IOS7</div>
-                    <div class="main_box_one_img"> 
-                        <img src="images/Layer21-991.jpg" alt="">
+                <div class="main-box__one">
+                    <div class="main-boxOne__text">IOS7</div>
+                    <div class="main-box__img">
+                        <img src="resources/soldier-2.jpg" alt="">
                     </div>
-                    <div class="main_infornation">
-                        <h4 class="main_box_desc">Cool Dishonored</h4>
-                        <p class="main_slogan">Boom Beach is con-stantly evolving to offer more user-friendly</p>
-                        <div class="main_content_one">
-                            <div class="circle">1</div>
-                            <div class="main_box_action">Action</div>
+                    <div class="main__infornation">
+                        <h4 class="main-boxOne__title">Cool Dishonored</h4>
+                        <p class="main-boxOne__subtitle">Boom Beach is con-stantly evolving to offer more user-friendly
+                        </p>
+                        <div class="main-content__one">
+                            <div class="circle">
+                                <p>1</p>
+                            </div>
+                            <div class="main-box__action">Action</div>
                         </div>
                         <div class="main_content_two">
-                            <div class="circle">2</div>
-                            <div class="main_box_action">Kids</div>
+                            <div class="circle">
+                                <p>2</p>
+                            </div>
+                            <div class="main-box__action">Kids</div>
                         </div>
-                        <a href="/" class="section_APP_one big_btn">view website</a>
+                        <a href="#" class="main-btnOne main__btn">view website</a>
                     </div>
                 </div>
 
-                <div class="main_box_two">
-                    <div class="main_box_two_img"> 
-                        <img width="254px" height="254px" src="images/car-992.jpg" alt="">  
+                <div class="main-boxTwo">
+                    <div class="main-boxTwo__img">
+                        <img width="254px" height="254px" src="resources/car-street.jpg" alt="">
                     </div>
-                    <h4 class="main_box_two_Drift">Drift 3 Cooming Soon</h4>
-                    <a href="/" class="section_APP_two big_btn">view website</a>
+                    <h4 class="main-boxTwo__text">Drift 3 Cooming Soon</h4>
+                    <a href="#" class="main-btnTwo main__btn">view website</a>
                 </div>
 
-                <div class="main_box_three">
-                    <div class="main_box_three_img"> 
-                        <img src="images/soldier.jpg" alt=""> 
+                <div class="main-boxThree">
+                    <div class="main-boxThree__img">
+                        <img src="resources/soldier.jpg" alt="">
                     </div>
-                    <p class="main_box_three_phone">IOS7</p>
-                    <p class="main_box_three_text">Battelfied 2 <span class="main_text_Moskow">Moskow</span></p>
-                    <div class="main_box_link">
-                        <p class="main_box_three_desc">Designing a battle this epic takes skill, imagination and some serious strate-gic planning. Drift 3 team brought </p>
-                        <a href="/" class="section_three_STORE big_btn">view website</a>
-                    </div> 
+                    <div class="main-boxThree__text">IOS7</div>
+                    <p class="main-boxThree__title">Battelfied 2 <span class="main-text__Moskow">Moskow</span></p>
+                    <div class="main-box__link">
+                        <p class="main-boxThree__subtitle">Designing a battle this epic takes skill, imagination and
+                            some
+                            serious strate-gic planning. Drift 3 team brought </p>
+                        <a href="#" class="main-btnThree main__btn main-boxThree__btn">view website</a>
+                    </div>
                 </div>
 
             </div>
@@ -130,151 +158,215 @@
     <!-- aside -->
     <div class="aside">
         <div class="container">
-            <div class="aside_block">
-                <div class="aside_title">Who we are</div>
-                <div class="aside_text">You may have seen us in the Dinosaurs' Den where we were we told that we didn't need them because we 
-                    were already doing it so well <span class="aside_text_arange">ourselves, so that's what we have continued </span> to do. We create basically</div>
+            <div class="aside__block">
+                <div class="aside__title">Who we are</div>
+                <div class="aside__text">You may have seen us in the Dinosaurs' Den where we were we told that we didn't
+                    need them because we
+                    were already doing it so well <span class="aside-text__arange">ourselves, so that's what we have
+                        continued </span> to do. We create basically</div>
             </div>
         </div>
     </div>
 
     <!-- Оболочка для демонстрации -->
-	<div class="carousel">
-		<!-- Контент -->
-		<div class="slider">
-			
-			<div class="slider_item">
-				<img src="face/Layer16.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer17.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer19.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer20.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer21.jpg" alt="/">
-			</div>
-            <div class="slider_item">
-				<img src="face/Layer18.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer23.jpg" alt="/">
-			</div>
-            <div class="slider_item">
-				<img src="face/Layer10.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer11.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer12.jpg" alt="/">
-			</div>
-			<div class="slider_item">
-				<img src="face/Layer13.jpg" alt="/">
-			</div>			
-			<div class="slider_item">
-				<img src="face/Layer14.jpg" alt="/">
-			</div>
-            <div class="slider_item">
-				<img src="face/Layer22.jpg" alt="/">
-			</div>
-            <div class="slider_item">
-				<img src="face/Layer15.jpg" alt="/">
-			</div>
-		
-		</div>
-		<div class="carousel_text">Tamara Bulic, <span class="carousel_text_italic"> Project Manager</span></div>
-	</div>
+    <div class="carousel">
+        <!-- Контент -->
+        <div class="slider">
+
+            <div class="slider__item">
+                <img src="resources/slider-person-16.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-17.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-19.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-20.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-21.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-18.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-23.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-10.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-11.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-12.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-133.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-14.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-22.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="resources/slider-person-15.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="carousel__text">Tamara Bulic<span class="carousel-text__italic">Project Manager</span></div>
+    </div>
 
     <!-- holder -->
-    <div class="container">
-        <div class="holder">
-            <div class="holder_block">
-                <div class="holder_title">Work with us !</div>
-                <div class="holder_text">A long established fact that a reader will be distracted by the readable content of a page when looking
-                    at its layout. The point of using Lorem Ipsum</div>
+
+    <div class="holder">
+        <div class="container">
+            <div class="holder__block">
+                <div class="holder__title">Work with us !</div>
+                <div class="holder__text">
+                    <p>A long established fact that a reader will be distracted by the readable
+                        content of a page when looking
+                        at its layout. The point of using Lorem Ipsum</p>
+                </div>
             </div>
         </div>
     </div>
 
-<!-- wrapper -->
-    <div class="container">
-        <div class="wrapper">
-            <div class="inner_left">
-                <div class="wrapper_inner_left_title">Software Developer/Analyst - Web Developer</div>
-                <div class="wrapper_inner_left_item">
-                    <a href="/"><img class="wrapper_inner_left_img" src="images/map.jpg" alt="/"></a>
-                    <div class="wrapper_inner_left_map">New York, NY 10011 (Chelsea area)</div>
-                    <a href="/"><img class="wrapper_inner_left_clock" src="images/clock.jpg" alt="/"></a>
-                    <div class="wrapper_inner_left_time">12 hours ago </div>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="wrapper__box">
+                <div class="inner__works">
+                    <h3 class="inner__title">Software Developer/Analyst - Web Developer</h3>
+                    <div class="inner__row">
+                        <div class="inner__img">
+                            <img src="resources/map.jpg">
+                        </div>
+                        <div class="inner__text">
+                            <div>New York, NY 10011 (Chelsea area)</div>
+                        </div>
+                        <div class="inner__img__clock">
+                            <img src="resources/clock.jpg">
+                        </div>
+                        <div class="inner__text__time">12 hours ago</div>
+                    </div>
+                    <div class="inner__job">Back-end development experience in PHP 5, and a strong understanding
+                        Object Programming within an MVC framework
+                    </div>
+                    <a href="#" class="wrapper__btn">apply now</a>
                 </div>
-                <div class="wrapper_inner_left_job">Back-end development experience in PHP 5, and a strong understanding Object Programming within an MVC framework</div>
-                <a href="/" class="wrapper_btn wrapper_btn_left">apply now</a>
-            </div>
 
-            <div class="inner_right">
-                <div class="wrapper_inner_right_title">UI Designer / Backend Developer</div>
-                <div class="wrapper_inner_right_item">
-                    <a href="/"><img class="wrapper_inner_right_img" src="images/map.jpg" alt="/"></a>
-                    <div class="wrapper_inner_right_map">New York, NY</div>
-                    <a href="/"><img class="wrapper_inner_right_clock" src="images/clock.jpg" alt="/"></a>
-                    <div class="wrapper_inner_right_time">2 hours ago </div>
+                <div class="inner__works">
+                    <div class="inner__title">UI Designer / Backend Developer</div>
+                    <div class="inner__row">
+                        <div class="inner__img">
+                            <img src="resources/map.jpg" alt="">
+                        </div>
+                        <div class="inner__text">New York, NY</div>
+                        <div class="inner__img__clock">
+                            <img src="resources/clock.jpg" alt="">
+                        </div>
+                        <div class="inner__text__time">2 hours ago </div>
+                    </div>
+                    <div class="inner__job">PHP and/or Java. Architect features with the development team.
+                        Krossover is looking for a Web Application Developer to join our team of smart developers</p>
+                    </div>
+                    <a href="#" class="wrapper__btn">apply now</a>
                 </div>
-                <div class="wrapper_inner_right_job">PHP and/or Java. Architect features with the development team. Krossover is looking for a Web Application Developer to join our team of smart developers</div>
-                <a href="/" class="wrapper_btn wrapper_btn_right">apply now</a>
             </div>
         </div>
     </div>
 
-    <!-- col -->
-    <div class="container">
-        <div class="col">
-            <div class="col_Blog">
-                <div class="col_row">
-                    <div class="col_aside">Blog</div>
-                    <div class="col_view">View More</div>
-                </div>
-                <div class="col_main">
-                    <div class="col_top">
-                        <img class="col_img_top" src="images/blog_soldier.jpg" alt="/">
-                        <div class="col_title_top">
-                            <div class="col_text_top">Big day for Next Games – Compass Point: West is out</div>
-                            <div class="col_data_top">March 26, 2021</div>
+
+
+
+
+
+
+    <!-- wrap -->
+
+    <div class="wrap">
+        <div class="container">
+            <div class="wrap__card">
+
+
+                <div class="wrap__box">
+
+
+                    <div class="wrap__container wrap__container__one">
+                        <div class="wrap__header">
+                            <h2 class="wrap__header__title">Blog</h2>
+                            <p class="wrap__header__text">View More</p>
+                        </div>
+                        <div class="wrap__main">
+                            <div class="main-top">
+                                <div class="main-top__img">
+                                    <img src="resources/blog_soldier.jpg" alt="">
+                                </div>
+                                <div class="main-top__text">
+                                    <h3 class="main-top__slogan">Big day for Next Games – Compass Point: West is out
+                                    </h3>
+                                    <div class="main-top__data">March 26, 2021</div>
+                                </div>
+                            </div>
+                            <div class="main-bottom">
+                                <div class="main-bottom__img">
+                                    <img src="resources/blog_soldier2.jpg" alt="">
+                                </div>
+                                <div class="main-botton__text">
+                                    <h3 class="main-bottom__slogan">Next Games reveals Compass Point: West The first in
+                                        a
+                                        series</h3>
+                                    <div class="main-bottom__data">November 18, 2014</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col_box_bottom">
-                        <img class="col_img_bottom" src="images/blog_soldier2.jpg" alt="/">
-                        <div class="col_title_botton">
-                            <div class="col_text_bottom">Next Games reveals Compass Point: West The first in a series </div>
-                            <div class="col_data_bottom">November 18, 2014</div>
+
+
+                </div>
+
+
+
+
+                <div class="wrap__box wrap__box__center">
+
+                    <div class="wrap__container">
+                        <h2 class="wrap-press">Press</h2>
+                        <div class="wrap-press__blok">
+                            <h3 class="wrap-press__title">Next Games launches its debut title, Compass Point: West,
+                            worldwide on the App Store </h3>
+                        <div class="wrap-press__subtitle">HELSINKI, Finland — March 26, 2021 — Next Games, the Finnish
+                            mobile
+                            games studio created by veteran talent from Supercell, Rovio and Disney, today announced the
+                            worldwide release of its premier action strategy title....</div>
+                        <a href="#" class="wrap-press__more">Read More</a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col_press">
-                <div class="press_caption">Press</div>
-                <div class="col_press_blok">
-                    <div class="col_press_title">Next Games launches its debut title, Compass Point: West, worldwide on the App Store </div>
-                    <div class="col_press_subtitle">HELSINKI, Finland — March 26, 2021 — Next Games, the Finnish mobile games studio created by veteran talent from Supercell, Rovio and Disney, today announced the worldwide release of its premier action strategy title....</div>
-                    <div class="col_text_red">Read More</div>
-                </div>
-            </div>
+                <div class="wrap__box wrap__box__end">
 
-            <div class="col_tweets">
-                <div class="col_Tweets_caption">Tweets</div>
-                <div class="col_Tweets_blok">
-                    <div class="col_Tweets_title">First details of what you can expect from <span class="col_Tweets_more">@twdnomansland</span> on the <span class="col_Tweets_more">@nxtgms</span> blog! It’s a hostile world out there..</div>
-                    <div class="col_Tweets_more">http://nxtg.ms/1NVMcNe</div>
-                    <div class="col_Tweets_subtitile">ICYMI I spoke to </span> on the <span class="col_Tweets_more">@nxtgms</span> about their upcoming <span class="col_Tweets_more">@WalkingDead_AMC</span>game. Check out the exclusive details and images  <span class="col_Tweets_more">@EW:http://ow.ly/Lp7N9</span></div>
-                </div>
-                <div class="col_Tweets_bottom">
-                    <img class="col_Tweets_socials" src="images/twitter_bottom.jpg" alt="/">
-                    <div class="col_Tweets_mail">@gamestudio</div>
+                    <div class="wrap__container">
+                        <h2 class="wrap-tweets">Tweets</h2>
+                        <div class="tweets-blok">
+                            <div class="tweets-blok__title">First details of what you can expect from <span
+                                class="tweets-blok__more">@twdnomansland</span> on the <span
+                                class="tweets-blok__more">@nxtgms</span> blog! It’s a hostile world out there..</div>
+                        <div class="tweets-blok__more">http://nxtg.ms/1NVMcNe</div>
+                        <div class="tweets-blok__subtitile">ICYMI I spoke to </span> on the <span
+                                class="tweets-blok__more">@nxtgms</span> about their upcoming <span
+                                class="tweets-blok__more">@WalkingDead_AMC</span>game. Check out the exclusive details
+                            and images <span class="tweets-blok__more">@EW:http://ow.ly/Lp7N9</span></div>
+                        </div>
+                        <div class="tweets-blok__bottom">
+                            <img class="tweets-blok__img" src="resources/twitter_bottom.jpg" alt="">
+                        <div class="tweets-blok__mail">@gamestudio</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -283,19 +375,21 @@
     <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="footer_top">
-                <img class="footer_img_red" src="images/red.jpg" alt="/">
-                <div class="footer_title">
-                    <div class="footer_child">Our Story</div>
-                    <div class="footer_child">What we do</div>
-                    <div class="footer_child">Games </div>
-                    <div class="footer_child">Work with us</div>
-                    <div class="footer_child">Support</div>
-                    <div class="footer_child">Contact Us</div>
-                    <div class="footer_sity">Sweden ( SWE )</div>
+            <div class="footer__inner">
+                <div class="footer__img">
+                    <img src="resources/red.jpg" alt="">
                 </div>
+                <nav class="footer_title">
+                    <a href="#" class="footer__link">Our Story</a>
+                    <a href="#" class="footer__link">What we do</a>
+                    <a href="#" class="footer__link">Games </a>
+                    <a href="#" class="footer__link">Work with us</a>
+                    <a href="#" class="footer__link">Support</a>
+                    <a href="#" class="footer__link">Contact Us</a>
+                    <a href="#" class="footer_sity">Sweden ( SWE )</a>
+                </nav>
             </div>
-            <div class="footer_subtitle">
+            <div class="footer__subtitle">
                 <div>Copyright @ 2021 Gamestudio</div>
                 <div>Privacy & Terms of Use</div>
             </div>
@@ -303,13 +397,14 @@
     </div>
 
     <!-- Подключаем jQuery -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- Подключаем слайдер Slick -->
-	<script src="js/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Подключаем слайдер Slick -->
+    <script src="js/slick.min.js"></script>
     <!-- Подключаем адаптация шапки -->
     <script src="js/script-adaptation.js"></script>
-	<!-- Подключаем файл SLICK SLIDER -->
-	<script src="js/script-slider.js"></script>
+    <!-- Подключаем файл SLICK SLIDER -->
+    <script src="js/script-slider.js"></script>
 
 </body>
+
 </html>
