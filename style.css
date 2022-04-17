@@ -1011,7 +1011,7 @@ h6 {
     height: 6.5%;
     background: #eb5635;
     text-align: center;
-    padding-top: 2px;
+    padding-top: 4px;
     position: absolute;
     top: 430px;
     left: 20px;
@@ -1087,6 +1087,7 @@ h6 {
     position: absolute;
     top: 9%;
     left: 60%;
+    padding-top: 4px;
 }
 
 .main-box__link {
@@ -1209,6 +1210,7 @@ h6 {
 
     .main-boxThree__text {
         top: 8%;
+        padding-top: 4px;
     }
 
     .main-boxThree__title {
@@ -1285,9 +1287,9 @@ h6 {
     .main-boxOne__text {
         top: 67%;
         left: 4%;
-        font-size: 17px;
         width: 18.5%;
         height: 4.8%;
+        padding-top: 6px;
     }
 
     .circle {
@@ -1348,13 +1350,13 @@ h6 {
     }
 
     .main-boxThree__text {
-        font-size: 17px;
         font-weight: 500;
         color: #f8f8f8;
         width: 18.5%;
         height: 6.5%;
         top:88%;
         left: 78%;
+        padding-top: 4px;
     }
 
     .main-boxThree__title {
@@ -1406,6 +1408,7 @@ h6 {
     .main-boxOne__text {
         font-size: 14px;
         height: 23px;
+        padding-top: 4px;
     }
 
     .main-btnOne {
@@ -1451,6 +1454,7 @@ h6 {
     .main-boxThree__text {
         font-size: 14px;
         height: 23px;
+        padding-top: 3px;
     }
 
     .main-boxThree__title {
